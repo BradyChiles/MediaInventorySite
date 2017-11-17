@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeInventory.master.cs" Inherits="MediaInventory.HomeInventory" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Content/Master.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <h1>Home Inventory</h1>
+
+    <asp:ContentPlaceHolder ID="mainPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+
+</body>
+</html>

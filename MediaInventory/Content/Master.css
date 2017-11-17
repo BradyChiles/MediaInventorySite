@@ -1,0 +1,18 @@
+﻿html, body {
+    margin: 0;
+    height: 100%;
+    background-image: url(~/images/purpleBackground.jpg);
+    background-repeat: repeat;
+}
+
+h1, div{
+    height: 125px;
+    background: #3399ff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #3399ff , #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #3399ff, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #3399ff, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #3399ff , #ffffff); /* Standard syntax */
+    margin: 0 auto 30px auto;
+    font-size: 50px;
+    color: white;
+}
