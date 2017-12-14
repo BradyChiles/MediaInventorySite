@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addInventory.aspx.cs" Inherits="groupProjectAddInventory.addInventory" UnobtrusiveValidationMode="None" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addInventory.aspx.cs" Inherits="MediaInventory.addInventory" UnobtrusiveValidationMode="None" %>
 
 <!DOCTYPE html>
 

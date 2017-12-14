@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace groupProjectAddInventory {
+namespace MediaInventory {
     
     
     public partial class addInventory {

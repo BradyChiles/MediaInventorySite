@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace groupProjectAddInventory {
+namespace MediaInventory {
     
     
     public partial class Confirmation {
@@ -83,6 +83,15 @@ namespace groupProjectAddInventory {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnModify;
+        
+        /// <summary>
+        /// btnMain control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMain;
         
         /// <summary>
         /// lblConfirmation control.

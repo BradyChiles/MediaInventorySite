@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="groupProjectAddInventory.Confirmation" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="MediaInventory.Confirmation" %>
 
 <!DOCTYPE html>
 
@@ -52,7 +52,8 @@
 
             <div class ="form-group">
                 <asp:Button ID="btnConfirm" runat="server" Text="Confirm" CssClass ="btn btn-primary" OnClick="btnConfirm_Click" />
-                <asp:Button ID="btnModify" runat="server" Text="Modify" CssClass ="btn" PostBackUrl ="~/addInventory.aspx" />
+                <asp:Button ID="btnModify" runat="server" Text="Modify" CssClass ="btn" PostBackUrl ="~/addInventory.aspx" OnClick="btnModify_Click" />
+                <asp:Button ID="btnMain" runat="server" Text="Home" CssClass="btn" PostBackUrl="~/Main.aspx" />
             </div>
 
             <div class ="form-group">
